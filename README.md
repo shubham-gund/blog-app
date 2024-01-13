@@ -30,9 +30,12 @@ git clone https://github.com/your-username/blog-app.git
 
    
     key => MONGODB_URL
+   
     Value => mongodb+srv://shubhamgund91:xWsxglWPrKlM21Io@cluster0.r28gw7i.mongodb.net/blog
+
    
     Key => JWT_SECRET
+   
     Value => MySecretBlog
 
 6. Start the application:
