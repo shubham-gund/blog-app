@@ -21,14 +21,14 @@ Welcome to the Blog App repository! This web application provides a platform for
 git clone https://github.com/your-username/blog-app.git
    
 2. Install the required dependencies:
-   cd blog-app
-   npm install
+      cd blog-app
+      npm install
 3. Set up the database (MongoDB):
 
- key => MONGODB_URL
- Value => mongodb+srv://shubhamgund91:xWsxglWPrKlM21Io@cluster0.r28gw7i.mongodb.net/blog
- Key => JWT_SECRET
- Value => MySecretBlog
+    key => MONGODB_URL
+    Value => mongodb+srv://shubhamgund91:xWsxglWPrKlM21Io@cluster0.r28gw7i.mongodb.net/blog
+    Key => JWT_SECRET
+    Value => MySecretBlog
 
 5. Start the application:
     npm run dev
