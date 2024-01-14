@@ -26,23 +26,13 @@ git clone https://github.com/your-username/blog-app.git
 
       npm install
 
-4. Set up the database (MongoDB):
+3. Set up the database (MongoDB):
 
-   
-    key => MONGODB_URL
-   
-    Value => mongodb+srv://shubhamgund91:xWsxglWPrKlM21Io@cluster0.r28gw7i.mongodb.net/blog
-
-   
-    Key => JWT_SECRET
-   
-    Value => MySecretBlog
-
-6. Start the application:
+4. Start the application:
 
     npm run dev
 
-8. Open your browser and go to [http://localhost:3000](http://localhost:3000) to access the Blog App.
+5. Open your browser and go to [http://localhost:3000](http://localhost:3000) to access the Blog App.
 
 ## Usage
 
