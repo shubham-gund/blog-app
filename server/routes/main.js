@@ -11,7 +11,7 @@ try {
         title:"Nodejs Blog",
         description : "Simple blog created with node js,Express and MongoDB."
     }
-    let perPage=10;
+    let perPage=5;
     let page=req.query.page ||1;
     const data=await Post.aggregate([{$sort:{createdAt:-1}}])
     .skip(perPage*page-perPage)
