@@ -19,6 +19,16 @@ document.addEventListener('DOMContentLoaded', function(){
       searchBar.classList.remove('open');
       this.setAttribute('aria-expanded', 'false');
     });
-  
-  
+
+
   });
+
+  document.getElementById('registerBtn').addEventListener('click', function() {
+    document.getElementById('loginForm').action = '/register';
+    document.getElementById('loginForm').submit(); // Submit the form for registration
+});
+
+document.getElementById('loginBtn').addEventListener('click', function() {
+    document.getElementById('loginForm').action = '/admin';
+    document.getElementById('loginForm').submit(); // Submit the form for login
+});

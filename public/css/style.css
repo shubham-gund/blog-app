@@ -172,6 +172,7 @@ img {
 
 /* Author - HomePage */
 .author {
+  font-style: oblique;
   padding: 10px 0;
   text-align: center;
 }
@@ -204,7 +205,7 @@ img {
 
 .article-list__date {
   font-size: 1rem;
-  color: var(--gray);
+  color: white;
   width: 100px;
   display: inline-block;
   width: 260px;
@@ -221,31 +222,53 @@ img {
 .left{
   height: 50rem;
   width: 10rem;
-  position: absolute;
+  position: fixed;
   top:150px;
-  left:10px;
+  left:20px;
 }
 .right{
   height: 50rem;
   width: 10rem;
-  position: absolute;
+  position: fixed;
   top:150px;
-  right:10px;
+  right:20px;
 }
-.a_right{
+.center{
   height: 50rem;
-  width: 10rem;
-  position: absolute;
-  top:150px;
-  right:10px;
+  width: 8rem;
+  position: fixed;
+  top:380px;
+  right:150px;
+}
+.left_top{
+  height: 100rem;
+  width: 15rem;
+  position: fixed;
+  top:170px;
+  right:320px;
 }
 
-.a_left{
+.t_left{
   height: 50rem;
   width: 10rem;
-  position: absolute;
-  top:150px;
-  left:10px;
+  position: fixed;
+  top:15%;
+  left:100px;
+}
+.l_left{
+  height: 50rem;
+  width: 10rem;
+  position: fixed;
+  top:60%;
+  left:100px;
+}
+
+.c_right{
+  height: 60rem;
+  width: 12rem;
+  position: fixed;
+  top:35%;
+  right:100px;
 }
 
 .content{
@@ -364,7 +387,7 @@ img {
 
 .pagination {
   font-size: 1.3rem;
-  color: var(--gray);
+  color: white;
   text-decoration: none;
   margin-top: 40px;
   display: inline-block;
@@ -372,4 +395,31 @@ img {
 
 .pagination:hover {
   color: var(--black);
+}
+
+
+.login{
+  font-size: x-large;
+  font-style: oblique;
+}
+#loginForm input[type="text"],
+#loginForm input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.btn {
+  background-color: #000000;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #1f1f1f;
 }
