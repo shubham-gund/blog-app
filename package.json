@@ -24,7 +24,7 @@
     "jsonwebtoken": "^9.0.2",
     "method-override": "^3.0.0",
     "mongoose": "^8.0.1",
-    "node": "^18.12.1"
+    "node": "^14.17.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
