@@ -100,6 +100,7 @@ img {
     grid-template-areas: 
     "logo menu button";
   }
+
 }
 
 .header__logo {
@@ -281,9 +282,26 @@ img {
     flex-direction: row;
     align-items: center;
   }
-
   .article-list__date {
     text-align: right;
+  }
+}
+
+@media  (max-width:1500px){
+    .left,.right,.c_right,.l_left,.t_left,.left_top,.center{
+      display:none;
+    }
+}
+
+@media (max-width:540px){
+  .content{
+    font-size: small;
+  }
+  h1{
+    font-size: large ;
+  }
+  h3{
+    font-size: medium;
   }
 }
 
