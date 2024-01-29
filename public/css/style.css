@@ -287,9 +287,15 @@ img {
   }
 }
 
-@media  (max-width:1500px){
-    .left,.right,.c_right,.l_left,.t_left,.left_top,.center{
+@media  (min-width:540px) and (max-width:1500px){
+    .left,.right,.c_right,.l_left,.t_left,.center{
       display:none;
+    }
+    .left_top{
+      width: 10rem;
+      position: absolute;
+      top:290px;
+      right:20px;
     }
 }
 
@@ -303,6 +309,16 @@ img {
   h3{
     font-size: medium;
   }
+  .left,.right,.c_right,.l_left,.t_left,.center{
+    display:none;
+  }
+  .left_top{
+    width: 6rem;
+    position: absolute;
+    top:45%;
+    right:1%;
+  }
+
 }
 
 .article-ul li {
@@ -422,7 +438,7 @@ img {
 }
 #loginForm input[type="text"],
 #loginForm input[type="password"] {
-  width: 100%;
+  width: 60%;
   padding: 8px;
   margin-bottom: 20px;
   border: 1px solid #ccc;
